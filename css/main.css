@@ -85,3 +85,40 @@ a {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    padding: .5em .75em;
+    text-align: left;
+  }
+
+ul {
+  padding: 0 .75rem;
+}
+
+  li {
+    width: auto;
+    padding: 0 .75rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%
+  }
+
+}
